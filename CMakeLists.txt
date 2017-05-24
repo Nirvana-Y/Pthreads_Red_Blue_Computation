@@ -8,4 +8,4 @@ find_package (Threads)
 set(SOURCE_FILES pthreads_red_blue_computation.c)
 add_executable(Pthreads_Red_Blue_Computation ${SOURCE_FILES})
 
-target_link_libraries (red_blue ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries (Pthreads_Red_Blue_Computation ${CMAKE_THREAD_LIBS_INIT})
